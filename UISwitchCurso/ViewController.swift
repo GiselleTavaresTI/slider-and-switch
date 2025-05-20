@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tappedSwitchAction(_ sender: UISwitch) {
-        }
+    }
     
     @IBAction func tappedSlider(_ sender: UISlider) {
         print(Int(sender.value))
