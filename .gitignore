@@ -1,0 +1,27 @@
+# .gitignore para Xcode
+# Build e arquivos temporários
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+# Arquivos de dependências
+Pods/
+Carthage/
+.swiftpm/
+Package.resolved
+# Arquivos de playgrounds
+timeline.xctimeline
+playground.xcworkspace
+# Swift Package Manager
+.build/
+# Arquivos de backup do macOS
+.DS
+Store
